@@ -1,0 +1,34 @@
+
+> pharmastorybook@1.0.0 build-storybook
+> storybook build --output-dir /var/folders/96/5mwgnv1d6qn3xn2bsddzdqp80000ks/T/chromatic--51699-EgZFDX15C9J7
+
+@storybook/cli v7.6.17
+
+info => Cleaning outputDir: /var/folders/96/5mwgnv1d6qn3xn2bsddzdqp80000ks/T/chromatic--51699-EgZFDX15C9J7
+info => Loading presets
+info => Building manager..
+info => Manager built (74 ms)
+info => Building preview..
+info => Copying static files: /Users/ayoub/pharmaStorybook/node_modules/@storybook/manager/static at /var/folders/96/5mwgnv1d6qn3xn2bsddzdqp80000ks/T/chromatic--51699-EgZFDX15C9J7/sb-common-assets
+WARN No story files found for the specified pattern: components/**/*.stories.mdx
+info Using Babel compiler
+info Addon-docs: using MDX2
+info => Using implicit CSS loaders
+Using @react-native/babel-preset
+info => Using default Webpack5 setup
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   71.2e990e88.iframe.bundle.js (583 KiB)
+WARN   68.9eb79992.iframe.bundle.js (728 KiB)
+WARN   372.9ce8a4f3.iframe.bundle.js (714 KiB)
+WARN   737.c54d1971.iframe.bundle.js (713 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (749 KiB)
+WARN       runtime~main.56e4bc0b.iframe.bundle.js
+WARN       372.9ce8a4f3.iframe.bundle.js
+WARN       main.b547dbd8.iframe.bundle.js
+WARN 
+info => Preview built (9.57 s)
+info => Output directory: /var/folders/96/5mwgnv1d6qn3xn2bsddzdqp80000ks/T/chromatic--51699-EgZFDX15C9J7
